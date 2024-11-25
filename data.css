@@ -1,0 +1,58 @@
+body {
+  padding: 100px 75px;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 40vh;
+  transition: all 1.3s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  height: 7em;
+}
+
+/* data.css */
+
+/* Responsive card text */
+.card-title {
+  font-size: 1.5rem; /* Default font size */
+}
+
+.card-text {
+  font-size: 1rem; /* Default font size */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 50px 50px;
+  }
+
+  .card-title {
+    font-size: 1rem; /* Slightly smaller font size for tablets and phones */
+  }
+  .card-text {
+    font-size: 0.9rem; /* Slightly smaller font size for tablets and phones */
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 10px 5px;
+  }
+
+  .card-title {
+    font-size: 0.9rem; /* Even smaller font size for small phones */
+  }
+  .card-text {
+    font-size: 0.8rem; /* Even smaller font size for small phones */
+  }
+}
